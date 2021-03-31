@@ -1,0 +1,24 @@
+# 业务日志
+busi_log_path = "./busi_jiange.log"
+# 访问日志
+access_log_path = "./acc_jiange.log"
+# 私钥
+jd_secret_key = "01234567890123456789012345678912"
+# 京东appid
+jd_app_id = "1ebc0914"
+# 拼多多
+pdd_app_id = "7152e728"
+pdd_channel_id = "104540"
+tmall_channel_id = "104543"
+
+# 启动配置
+[server]
+  ip = "127.0.0.1"
+  port = 20000
+
+# redis配置
+[redis]
+  address = "127.0.0.1:6379"
+  MaxIdle = 8
+  MaxActive = 10
+  IdleTimeout = 240

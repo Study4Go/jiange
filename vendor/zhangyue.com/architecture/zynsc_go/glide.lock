@@ -1,0 +1,11 @@
+hash: 73a95bbe50ca55a7824efae8082b4882b7ea5f998d86451e0483fefb67f5a8fe
+updated: 2017-10-21T00:28:23.060594197+08:00
+imports:
+- name: zhangyue.com/architecture/zynsc_go
+  version: 02949d089b8f9d66dc2ddb614ed5865a180f6b7a
+  repo: http://192.168.6.70/architecture/zynsc_go.git
+  vcs: git
+  subpackages:
+  - qconf
+  - utils
+testImports: []

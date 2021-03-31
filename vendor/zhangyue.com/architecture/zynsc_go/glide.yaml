@@ -1,0 +1,10 @@
+package: .
+import:
+- package: zhangyue.com/architecture/zynsc_go
+  vcs: git
+  repo: http://192.168.6.70/architecture/zynsc_go.git
+  subpackages:
+    - utils
+    - qconf
+- package: github.com/golang/groupcache/lru
+- package: github.com/bitly/go-simplejson

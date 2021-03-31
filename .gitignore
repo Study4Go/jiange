@@ -1,0 +1,7 @@
+debug
+*.rdb
+.vscode
+main
+jiange.log
+jiange.log.*
+*.exe
